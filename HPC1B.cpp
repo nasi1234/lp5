@@ -1,3 +1,5 @@
+%%writefile hpc1b.cpp
+
 #include <iostream>
 #include <vector>
 #include <stack>
@@ -56,3 +58,7 @@ int main() {
     cout << "\nExecution Time: " << (end - begin) << " seconds\n";
     return 0;
 }
+
+//command:
+// !g++ hpc1b.cpp -fopenmp -o hpc1b
+// !./hpc1b
