@@ -1,3 +1,4 @@
+%%writefile hpc2a.cpp
 #include <iostream>
 #include <omp.h>
 using namespace std;
@@ -62,3 +63,7 @@ int main() {
     delete[] b;
     return 0;
 }
+
+//command:
+// !g++ hpc2a.cpp -fopenmp -o hpc2a
+// !./hpc2a
