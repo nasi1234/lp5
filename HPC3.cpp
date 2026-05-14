@@ -1,3 +1,4 @@
+%%writefile hpc3.cpp
 #include <iostream>
 #include <omp.h>
 #include <climits>
@@ -74,3 +75,6 @@ int main() {
 
     return 0;
 }
+
+!g++ hpc3.cpp -fopenmp -o hpc3
+!./hpc3
