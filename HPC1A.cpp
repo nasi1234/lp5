@@ -1,3 +1,5 @@
+%%writefile hpc1a.cpp
+
 #include <iostream>
 #include <queue>
 #include <omp.h>
@@ -90,3 +92,9 @@ int main() {
 
     return 0;
 }
+
+
+//command:
+// !g++ hpc1a.cpp -fopenmp -o hpc1a
+// !./hpc1a
+
